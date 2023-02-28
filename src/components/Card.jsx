@@ -39,7 +39,7 @@ function Main() {
         </button>
       </header>
       <div className="main">
-        {cardList.map((number) => (
+        {cardList?.map((number) => (
           <div className="cards" key={number.id}>
             {number.list}
             <span className="close" id={number.id} onClick={deleteCards}>
