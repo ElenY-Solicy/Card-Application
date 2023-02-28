@@ -1,12 +1,11 @@
 import "./App.css";
-import Cards from "./components/Cards";
-import Header from "./components/Header";
+import All from "./components/All";
 import Instruction from "./components/Instruction";
 
 function App() {
   return (
     <div className="App">
-      <Cards />
+      <All />
       <Instruction />
     </div>
   );
